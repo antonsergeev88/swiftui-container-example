@@ -11,6 +11,8 @@
 		5FA6BD9629715641006F76E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BD9529715641006F76E6 /* ContentView.swift */; };
 		5FA6BD9829715641006F76E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6BD9729715641006F76E6 /* Assets.xcassets */; };
 		5FA6BD9B29715641006F76E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6BD9A29715641006F76E6 /* Preview Assets.xcassets */; };
+		5FA6BDA229715EFD006F76E6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BDA129715EFD006F76E6 /* NotificationView.swift */; };
+		5FA6BDA429747E80006F76E6 /* FruitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA6BDA329747E80006F76E6 /* FruitListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5FA6BD9529715641006F76E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FA6BD9729715641006F76E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FA6BD9A29715641006F76E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5FA6BDA129715EFD006F76E6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		5FA6BDA329747E80006F76E6 /* FruitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				5FA6BD9329715641006F76E6 /* ModalsInSwiftUIApp.swift */,
 				5FA6BD9529715641006F76E6 /* ContentView.swift */,
+				5FA6BDA329747E80006F76E6 /* FruitListView.swift */,
+				5FA6BDA129715EFD006F76E6 /* NotificationView.swift */,
 				5FA6BD9729715641006F76E6 /* Assets.xcassets */,
 				5FA6BD9929715641006F76E6 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				5FA6BD9629715641006F76E6 /* ContentView.swift in Sources */,
 				5FA6BD9429715641006F76E6 /* ModalsInSwiftUIApp.swift in Sources */,
+				5FA6BDA229715EFD006F76E6 /* NotificationView.swift in Sources */,
+				5FA6BDA429747E80006F76E6 /* FruitListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
