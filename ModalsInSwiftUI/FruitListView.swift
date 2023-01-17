@@ -26,5 +26,30 @@ struct FruitListView: View {
             }
         }
         .navigationTitle("Fruits")
+        .notification(for: Fruit.self) { fruit in
+            VStack(spacing: 20) {
+                Text(fruit.emoji)
+                Text(fruit.name)
+            }
+            .padding(40)
+            .background {
+                Color.blue
+            }
+            .cornerRadius(20)
+        }
+        .notification(for: Int.self) { i in
+            Text("\(i)")
+                .padding(40)
+                .background {
+                    Color.red
+                }
+                .cornerRadius(10)
+        }
+    }
+}
+
+struct FruitListView_Previews: PreviewProvider {
+    static var previews: some View {
+        FruitListView()
     }
 }

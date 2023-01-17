@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Notifications
 
 struct ContentView: View {
     var body: some View {
@@ -14,7 +15,6 @@ struct ContentView: View {
                 FruitListView()
             }
         }
-        .ignoresSafeArea()
     }
 }
 
