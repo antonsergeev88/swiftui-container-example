@@ -15,6 +15,14 @@ class NotificationRegistry {
         let key = String(reflecting: type)
         storage[key] = nil
     }
+
+    func view(for value: Any) -> AnyView? {
+        let key = String(reflecting: type(of: value))
+        guard let factory = storage[key] else {
+            return nil
+        }
+        return factory(value)
+    }
 }
 
 struct RegistryModifier<T, Note: View>: ViewModifier {

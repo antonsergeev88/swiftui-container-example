@@ -8,13 +8,20 @@
 import SwiftUI
 import Notifications
 
+class NotificationManager: ObservableObject {
+    @Published var value: Any?
+}
+
 struct ContentView: View {
+    @StateObject private var notificationManager = NotificationManager()
+
     var body: some View {
-        NotificationView {
+        NotificationView($notificationManager.value) {
             NavigationStack {
                 FruitListView()
             }
         }
+        .environmentObject(notificationManager)
     }
 }
 
